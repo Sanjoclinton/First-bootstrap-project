@@ -12,390 +12,317 @@
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body class="text-white" style="background-color: black">
-    <header id="header" class="container-md">
-      <nav class="w-100 py-2 px-1">
-        <div class="row">
-          <div class="col-5 d-flex align-items-center">
-            <a
-              class="talk navbar-brand"
-              href="#"
-              style="font-size: 14px; font-weight: 600"
+  <body class="bg-black">
+    <header id="header" class="container gothic-font">
+      <nav class="navbar row p-3">
+        <div class="col-5 text-white d-xxl-flex justify-content-between">
+          <a
+            class="lets-talk navbar-brand text-white d-xxl-none py-3"
+            href="#"
+            style="font-size: 12px"
+          >
+            <img
+              class="me-1"
+              src="assets/icons8-waving-hand-emoji-48.png"
+              alt="Logo"
+              width="22"
+              height="20"
+            />
+            LET'S TALK
+          </a>
+          <div class="d-none d-xxl-flex justify-content-between w-100">
+            <a href="" class="navbar-brand text-white">HELLO@STRV.COM</a>
+            <a href="" class="navbar-brand text-white text-decoration-none"
+              >/</a
             >
-              <img
-                class="me-1"
-                src="icons8-waving-hand-emoji-48.png"
-                alt="hand wave icon"
-                width="18px"
-                height="18px"
-              />
+            <a href="" class="navbar-brand text-white">FB</a>
+            <a href="" class="navbar-brand text-white">TW</a>
+            <a href="" class="navbar-brand text-white">IG</a>
+            <a href="" class="navbar-brand text-white">IG</a>
+            <a href="" class="navbar-brand text-white">LI</a>
+            <a href="" class="navbar-brand text-white">GH</a>
+            <a href="" class="navbar-brand text-white">DR</a>
+          </div>
+        </div>
+        <div class="col-2 text-center">
+          <a
+            class="logo text-decoration-none"
+            href=""
+            style="font-size: 30px; color: red"
+            >STRV</a
+          >
+        </div>
+        <div
+          class="right-nav-links-cont col-5 text-end text-white d-xxl-flex justify-content-between align-items-center"
+        >
+          <div
+            class="right-nav-links d-none d-xxl-flex justify-content-between align-items-center"
+            style="flex-basis: 80%"
+          >
+            <a href="" class="navbar-brand text-white">OUR WORK</a>
+            <a href="" class="navbar-brand text-white">SERVICES</a>
+            <a href="" class="navbar-brand text-white">WHY STRV</a>
+            <button class="py-1 px-4 border-red bg-red text-white">
               LET'S TALK
-            </a>
+            </button>
           </div>
-          <div class="col-2 d-flex align-items-center">
-            <a
-              class="navbar-brand text-danger fw-bolder"
-              href="#"
-              style="font-size: 32px"
-              >STRV</a
-            >
-          </div>
-          <div class="col-5 d-flex align-items-center justify-content-end">
-            <svg
-              class="menu-icon"
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              fill="currentColor"
-              class="bi bi-list"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill-rule="evenodd"
-                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-              />
-            </svg>
+          <svg
+            class="menu-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+          <div class="btn-container d-none">
+            <p class="mb-0 me-1 d-none text-close navbar-brand text-white">
+              CLOSE
+            </p>
             <button
               type="button"
-              class="btn-close btn-close-white none-nav"
+              class="btn-close btn-close-white"
               aria-label="Close"
-              style="width: 16px; height: 16px"
             ></button>
           </div>
         </div>
       </nav>
-      <div
-        id="nav-content"
-        class="text-black fw-bold none-nav"
-        style="width: 100%; height: 100vh; font-size: 45px"
+      <nav
+        class="container nav-content ms-2 ls-md fw-bold d-none flex-column justify-content-between"
       >
-        <ul style="list-style: none">
-          <li><a href="">HOME</a></li>
-          <li class="nav-link d-flex">
-            <a href="">OUR WORK</a>
-            <p class="mb-0 align-self-start h6 mt-3 ms-2 text-secondary">
-              (200+)
-            </p>
-          </li>
-          <li class="nav-link"><a href="">SERVICES</a></li>
-          <li class="nav-link d-flex">
-            <a href="">ABOUT</a>
-            <p class="mb-0 align-self-start h6 mt-3 ms-2 text-secondary">
-              (190+)
-            </p>
-          </li>
-          <li class="nav-link"><a href="">BLOG</a></li>
-          <li class="nav-link"><a href="">WHY STRV</a></li>
-          <li class="nav-link d-flex">
-            <a href="">CAREERS</a>
-            <p class="mb-0 align-self-start h6 mt-3 ms-2 text-danger">
-              (4 OPEN)
-            </p>
-          </li>
-          <li><a href="">CONTACT</a></li>
-        </ul>
-      </div>
+        <div
+          class="nav-content-links align-items-center justify-content-center flex-column flex-grow-1"
+        >
+          <div class="d-xxl-none">
+            <a href="">HOME</a>
+          </div>
+          <div
+            class="w-75 d-xxl-flex align-items-center justify-content-around"
+          >
+            <div class="d-flex">
+              <a href="">OUR WORK</a>
+              <p
+                class="align-text-top mb-0 mt-2 mt-xxl-4 ms-2 h6 text-secondary"
+              >
+                (200+)
+              </p>
+            </div>
+            <div class="nav-link-divider bg-secondary d-none d-xxl-block"></div>
+            <a href="">SERVICES</a>
+          </div>
+          <div
+            class="w-75 d-xxl-flex align-items-center justify-content-around"
+          >
+            <div class="d-flex">
+              <a href="">ABOUT</a>
+              <p
+                class="align-text-top mb-0 mt-2 mt-xxl-4 ms-2 h6 text-secondary"
+              >
+                (190+)
+              </p>
+            </div>
+            <div class="nav-link-divider bg-secondary d-none d-xxl-block"></div>
+            <div><a href="">BLOG</a></div>
+            <div class="nav-link-divider bg-secondary d-none d-xxl-block"></div>
+            <a href="">WHY STRV</a>
+          </div>
+          <div
+            class="w-75 d-xxl-flex align-items-center justify-content-around"
+          >
+            <div class="d-flex">
+              <a href="">CAREERS</a>
+              <p class="align-text-top mb-0 mt-2 mt-xxl-4 ms-2 h6 red-text">
+                (4 OPEN)
+              </p>
+            </div>
+            <div class="nav-link-divider bg-secondary d-none d-xxl-block"></div>
+            <a href="">CONTACT</a>
+          </div>
+        </div>
+        <!-- Social media icons -->
+        <div class="text-secondary mb-5">
+          <div
+            class="d-flex justify-content-between d-xxl-none"
+            style="min-width: 300px; max-width: 450px"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-facebook"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-instagram"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-github"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-twitter-x"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-linkedin"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-whatsapp"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"
+              />
+            </svg>
+          </div>
+          <div
+            class="d-none d-xxl-flex justify-content-between nav-content-footer"
+          >
+            <p>© 2023 STRV <span class="ms-3">RIGHTS RESERVED.</span></p>
+            <div>
+              <a class="me-5 text-secondary text-decoration-none" href=""
+                >SECURITY</a
+              >
+              <a class="text-secondary text-decoration-none" href=""
+                >PRIVACY POLICY</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main>
-      <!-- SECTION ONE -->
       <section
-        class="d-flex justify-content-center align-items-center my-5"
+        class="my-5 container-fluid text-white text-center fw-bold d-flex align-items-center"
         style="height: 75vh"
       >
-        <h1
-          class="text-center fw-bolder"
-          style="font-size: min(80px, 18vw); max-width: 800px"
-        >
-          <span class="text-danger">NEXT-LEVEL</span> DESIGN & VIDEO ENGINEERING
+        <h1 class="container gothic-font" style="font-size: min(16.5vw, 110px)">
+          <span class="red-text text-decoration-underline">NEXT-LEVEL</span>
+          DESIGN &
+          <video
+            style="object-fit: cover; width: 18vw; height: min(10vw, 80px)"
+          >
+            <source src="assets/videotop.mp4" type="video/mp4" />
+          </video>
+          ENGINEERING
         </h1>
       </section>
-      <!-- SECTION 2 -->
-      <section class="my-5 container-md">
-        <video width="100%" height="100%" autoplay controls>
-          <source src="My Portfolio - Google Chrome 2023-09-18 21-16-36.mp4" />
+      <section class="container-md my-5">
+        <video loop controls width="100%" height="100%">
+          <source
+            src="assets/My Portfolio - Google Chrome 2023-09-18 21-16-36.mp4"
+          />
         </video>
-        <p class="text-secondary play">PLAY - STRV SHOWREEL '22</p>
       </section>
-      <!-- SECTION 3 -->
-      <section class="my-5 px-2 container-md">
-        <article class="lh-lg fw-medium" align="justify">
-          <span
-            class="text-secondary me-5 roboto-font"
-            >HELLO!</span
-          >
-          <span class="base-font"
-            >STRV is a software design and engineering team that’s been learning
-            and creating since 2004. Our vision has always been simple:
-            <span class="text-danger">We want to do top work.</span> And today,
-            with a team of 190 experts that continue striving for more, we’re
-            still as ready as ever to go the <a href="">extra mile</a> for our
-            craft, <a href="">our partners</a> and each other.
-          </span>
-        </article>
-        <div class="row gx-3 my-5 base-font">
-          <div class="col-6">
-            <button
-              class="w-100 p-3 d-flex align-items-center justify-content-between border-danger bg-danger"
-            >
-              <p class="text-white mb-0 fw-bold" style="font-size: 12px">
-                LET'S TALK
-              </p>
-              <svg
-                style="color: white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
+      <section class="my-5 container-lg d-xxl-flex justify-content-center">
+        <article class="article-container text-white">
+          <blockquote class="lh-lg article-font-size">
+            <span class="text-secondary h6 roboto-font" style="font-size: 0.7em"
+              >HELLO!</span
+            ><span class="ms-5"
+              >STRV is a software design and engineering team that’s been
+              learning and creating since 2004. Our vision has always been
+              simple: <span class="red-text">We want to do top work</span>. And
+              today, with a team of 190 experts that continue striving for more,
+              we’re still as ready as ever to go the
+              <span
+                ><a href="" class="text-white">extra mile</a
+                ><span
+                  class="align-text-top text-secondary h6 roboto-font"
+                  style="font-size: 0.7em"
+                  >(VIEW SERVICES)</span
+                ></span
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </div>
-          <div class="col-6">
-            <button
-              class="w-100 p-3 d-flex align-items-center justify-content-between border border-secondary bg-black"
-            >
-              <p class="text-white mb-0 fw-bold" style="font-size: 12px">
-                WHY STRV
-              </p>
-              <svg
-                style="color: white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
+              for our craft,
+              <span
+                ><a href="" class="text-white">our patners</a
+                ><span
+                  class="align-text-top text-secondary h6 roboto-font"
+                  style="font-size: 0.7em"
+                  >(VIEW OUR WORK)</span
+                ></span
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION 4-->
-      <section class="my-5" style="width: 100%; overflow: hidden">
-        <div class="main-logo-containers d-flex" style="width: 2400px">
-          <div
-            class="logos-container d-flex justify-content-evenly align-items-center"
-          >
-            <div class="img-container">
-              <img src="logos/addidas.jpg" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/chanel.png" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/newbalance.png" alt="" />
-            </div>
-            <div class="img-container"><img src="logos/nike.png" alt="" /></div>
-            <div class="img-container"><img src="logos/polo.png" alt="" /></div>
-          </div>
-          <div
-            class="logos-container d-flex justify-content-evenly align-items-center"
-          >
-            <div class="img-container">
-              <img src="logos/addidas.jpg" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/chanel.png" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/newbalance.png" alt="" />
-            </div>
-            <div class="img-container"><img src="logos/nike.png" alt="" /></div>
-            <div class="img-container"><img src="logos/polo.png" alt="" /></div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION 5 -->
-      <section class="container-md my-5" style="width: 100%">
-        <div class="row">
-          <!-- ADDIDAS BRAND IMAGE -->
-          <div class="col-12 col-md-6">
-            <div class="card" style="width: 100%">
-              <img
-                src="brands/chanel_brand.jpeg"
-                class="card-img-top"
-                alt="chanel product photo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">CHANEL</h3>
-                <p class="card-text">DESIGN, IOS, ANDROID</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card" style="width: 100%">
-              <img
-                src="brands/addidas_brand.jpeg"
-                class="card-img-top"
-                alt="addidas product photo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">ADDIDAS</h3>
-                <p class="card-text">PM, DESIGN, IOS, ANDRIOD, WEB</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card" style="width: 100%">
-              <img
-                src="brands/newbalance_brand.jpeg"
-                class="card-img-top"
-                alt="new balance product photo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">NEW BALANCE</h3>
-                <p class="card-text">PM, DESIGN, ANDROID, IOS</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card" style="width: 100%">
-              <img
-                src="brands/polo_brand.jpeg"
-                class="card-img-top"
-                alt="Polo product photo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">POLO</h3>
-                <p class="card-text">IOS, WEB</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card" style="width: 100%">
-              <img
-                src="brands/nike_brand.jpeg"
-                class="card-img-top"
-                alt="nike product photo"
-              />
-              <div class="card-body">
-                <h3 class="card-title">NIKE</h3>
-                <p class="card-text">DESIGN, WEB</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row gx-3 my-5 base-font">
-          <div class="col-6">
-            <button
-              class="w-100 p-3 d-flex align-items-center justify-content-between border-danger bg-danger"
+              and each other.</span
             >
-              <p class="text-white mb-0 fw-bold" style="font-size: 12px">
-                MORE PROJECTS
-              </p>
-              <svg
-                style="color: white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </div>
-          <div class="col-6">
-            <button
-              class="w-100 p-3 d-flex align-items-center justify-content-between border border-secondary bg-black"
-            >
-              <p class="text-white mb-0 fw-bold" style="font-size: 12px">
-                CLIENTS LIST
-              </p>
-              <svg
-                style="color: white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                class="bi bi-arrow-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fill-rule="evenodd"
-                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
-                />
-              </svg>
-            </button>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION 6 -->
-      <section class="container-md my-5" id="section-6">
-        <article class="p-1 lh-lg fw-medium" align="justify">
-          <h1 class="text-center" style="font-size: min(11.5vw, 100px)">
-            ABOUT <span class="fw-bold text-danger">STRV</span>
-          </h1>
-          <p>
-            <span
-              class="text-secondary me-5 roboto-font"
-              >HUMBLE BRAG</span
-            >
-            <span class="base-font"
-              >We’re proud to be able to say STRV is composed of good people. We
-              look for intelligent minds rooted in strong character and
-              kindness. ♥♥</span
-            >
-          </p>
-
-          <p class="text-secondary base-font">
-            Our greatest success is that this remains true no matter our size
-            (190+), goals (BIG), or success (not complaining). You’ll find more
-            about the team if you click around below. Get to know us a little.
-          </p>
-
-          <ul class="base-font text-secondary" style="list-style-type: '- '">
-            <li>
-              STRV's
-              <span class="text-danger text-decoration-underline"
-                >★ 4.8 Glassdoor rating</span
-              >
-              comes with a 98% CEO approval (2022)
-            </li>
-            <li>
-              <span class="text-danger text-decoration-underline"
-                >Our rigorous hiring</span
-              >
-              process helps us find people that make us better
-            </li>
-            <li>
-              In the last 3 years alone, we’ve spoken at 56 conferences
-              worldwide
-            </li>
-          </ul>
-
-          <div class="row my-5 base-font">
-            <div class="col-6">
+          </blockquote>
+          <div class="row my-5 gothic-font">
+            <div class="col-6 col-xxl-4 fw-bold">
               <button
-                class="w-100 p-2 d-flex align-items-center justify-content-between border border-danger bg-danger"
+                class="d-flex justify-content-between align-items-center text-white border-red bg-red w-100 p-3"
               >
-                <p class="text-white mb-0 fw-bold" style="font-size: 12px">
-                  SERVICES
-                </p>
+                <p class="mb-0">LET'S TALK</p>
                 <svg
-                  style="color: white"
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="col-6 col-xxl-4">
+              <button
+                class="d-flex justify-content-between align-items-center text-white border-secondary bg-black w-100 p-3"
+              >
+                <p class="mb-0">WHY STRV?</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
                   fill="currentColor"
                   class="bi bi-arrow-right"
                   viewBox="0 0 16 16"
@@ -409,141 +336,573 @@
             </div>
           </div>
         </article>
-        <div class="w-100">
-          <img src="brands/discuss.jpeg" alt="" width="100%" />
+      </section>
+      <section class="container-fluid logo-section overflow-hidden">
+        <div class="logos d-flex overflow-hidden">
+          <div
+            class="brand-logo-container d-flex justify-content-between align-items"
+          >
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/addidas.jpg"
+                alt="addidas logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/chanel.png"
+                alt="chanel logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/newbalance.png"
+                alt="newbalance logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/nike.png"
+                alt="nike logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/polo.png"
+                alt="polo logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/microsoft.png"
+                alt="microsoft logo"
+              />
+            </div>
+          </div>
+          <div class="brand-logo-container d-flex justify-content-between
+          align-items"">
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/addidas.jpg"
+              alt="addidas logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/chanel.png"
+              alt="chanel logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/newbalance.png"
+              alt="newbalance logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/nike.png"
+              alt="nike logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/polo.png"
+              alt="polo logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/microsoft.png"
+              alt="microsoft logo"
+            />
+          </div>
         </div>
       </section>
-      <!-- SECTION 7 -->
-      <section class="my-5" style="width: 100%; overflow: hidden">
-        <div class="main-logo-containers d-flex" style="width: 2400px">
-          <div
-            class="logos-container d-flex justify-content-evenly align-items-center"
-          >
-            <div class="img-container">
-              <img src="logos/addidas.jpg" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/chanel.png" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/newbalance.png" alt="" />
-            </div>
-            <div class="img-container"><img src="logos/nike.png" alt="" /></div>
-            <div class="img-container"><img src="logos/polo.png" alt="" /></div>
-          </div>
-          <div
-            class="logos-container d-flex justify-content-evenly align-items-center"
-          >
-            <div class="img-container">
-              <img src="logos/addidas.jpg" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/chanel.png" alt="" />
-            </div>
-            <div class="img-container">
-              <img src="logos/newbalance.png" alt="" />
-            </div>
-            <div class="img-container"><img src="logos/nike.png" alt="" /></div>
-            <div class="img-container"><img src="logos/polo.png" alt="" /></div>
-          </div>
-        </div>
-      </section>
-      <!-- SECTION 8 -->
+      <!-- This section holds the brand photography names and supported devices -->
       <section class="my-5 container-md">
-        <article class="p-1 lh-lg fw-medium" align="justify">
-          <h1 class="text-center" style="font-size: min(11.5vw, 100px)">
-            CLIENT SAY
-          </h1>
-          <p class="text-center text-secondary fs-6">
-            (SELECTED TESTIMONIALS FROM CLUTCH ↗ AND OUR WORK)
-          </p>
-          <div class="mt-5 container" style="max-width: 680px;">
-            <span class="text-secondary me-3 roboto-font" style="font-size: 12px;">JULY 1,2019 - </span><q class="base-font fst-italic opacity-50">
-              STRV embodies the concept of a trusted partner. They're not only
-              executing the plan, but they're also helping us navigate through
-              the challenges. I've worked with a lot of vendors, but I've never
-              seen this level of execution.
-            </q>
-            <div class="mt-5 profile d-flex align-items-center">
-              <img class="profle-picture rounded-circle me-3" width="42.5px" src="images/profilepic.jpg" alt="sanjo profile picture">
-              <div class="profile-title base-font">
-                <h6 class="mb-1">Edward Nelson</h6>
-                <h6 class="text-secondary">Director of Product Testing, OPKIX</h6>
-              </div>
-    
+        <div class="row brand-cards-container text-white">
+          <!-- Each cards has an image, the brand name and supported devices -->
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/addidas_brand.jpeg"
+              alt="addidas content photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>ADDIDAS</h4>
             </div>
-            <div class="w-25 mt-3">
-              <div class="bg-danger w-50" style="height: 2px;"></div>
-            </div>
-            <div class="mt-3 d-flex align-items-center">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
-                <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
-                <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
-              </svg>
-              <p class="mb-0 ms-2">SHOW MORE FEEDBACK</p>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>PM, DESIGN, IOS, ANDROID WEB</p>
             </div>
           </div>
-        </article>
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/chanel_brand.jpeg"
+              alt="chanel content photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>CHANEL</h4>
+            </div>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>DESIGN, IOS, ANDROID</p>
+            </div>
+          </div>
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/newbalance_brand.jpeg"
+              alt="new balance content photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>NEW BALANCE</h4>
+            </div>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>PM, DESIGN, WEB, IOS</p>
+            </div>
+          </div>
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/nike_brand.jpeg"
+              alt="nike brand photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>NIKE</h4>
+            </div>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>DESIGN, WEB</p>
+            </div>
+          </div>
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/polo_brand.jpeg"
+              alt="Polo brand photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>POLO</h4>
+            </div>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>PM, DESIGN, WEB, IOS, DATA SCIENCE</p>
+            </div>
+          </div>
+          <div class="brand-cards col-12 col-lg-6">
+            <img
+              class="w-100"
+              src="brands/microsoft brand.jpeg"
+              alt="microsoft brand photography"
+            />
+            <div class="brand-title gothic-font">
+              <h4>MICROSOFT</h4>
+            </div>
+            <div class="brand-supported roboto-font font-12 text-secondary">
+              <p>PM, IOS</p>
+            </div>
+          </div>
+        </div>
+        <div class="row my-5 d-xxl-flex justify-content-center gothic-font">
+          <div class="col-6 col-xxl-2 fw-bold">
+            <button
+              class="flex-nowrap d-flex justify-content-between align-items-center text-white border-red bg-red w-100 p-3"
+            >
+              <p class="mb-0">MORE PROJECTS</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </button>
+          </div>
+          <div class="col-6 col-xxl-2">
+            <button
+              class="d-flex justify-content-between align-items-center text-white border-secondary bg-black w-100 p-3"
+            >
+              <p class="mb-0">CLIENTS LIST</p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
       </section>
-      <!-- SECTION 9 -->
+      <section class="d-flex align-items-center w-100" style="height: 200px">
+        <hr class="w-100 text-secondary" />
+      </section>
+      <section class="container-md">
+        <div class="d-flex flex-column flex-xxl-row-reverse">
+          <article class="about-article text-white p-xxl-3">
+            <header
+              class="gothic-font text-center"
+              style="font-size: min(16.5vw, 110px)"
+            >
+              ABOUT <span class="red-text">STRV</span>
+            </header>
+            <blockquote class="lh-lg article-font-size">
+              <span
+                class="text-secondary h6 roboto-font"
+                style="font-size: 0.7em"
+                >HUMBLE BAG</span
+              ><span class="ms-5"
+                >We are proud to be able to say STRV is a good people. We look
+                for intelligent minds rooted in strong character and kindness.
+              </span>
+            </blockquote>
+            <div class="about-us-text text-secondary">
+              <p class="my-5">
+                Our greatest success is that this remains true no matter our
+                size (190+), goals (BIG) or success (not complaining). You’ll
+                find a lot more about the team if you click around below. Get to
+                know us a little.
+              </p>
+              <ul class="me-5">
+                <li>
+                  STRV's
+                  <span class="red-text">★4.8 Glassdoor rating</span> comes with
+                  a 98% CEO approval (2022)
+                </li>
+                <li>
+                  <span class="red-text">Our rigorous hiring</span> process
+                  helps us find people that make us better
+                </li>
+                <li>
+                  In the last 3 years alone, we’ve spoken at 56 conferences
+                  worldwide
+                </li>
+              </ul>
+            </div>
+            <div class="gothic-font w-50 fw-bold">
+              <button
+                class="d-flex justify-content-between align-items-center text-white border-red bg-red w-100 p-3 my-4"
+              >
+                <p class="mb-0">SERVICES</p>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  fill="currentColor"
+                  class="bi bi-arrow-right"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </article>
+          <div class="align-self-xxl-end px-xxl-5 my-5">
+            <img class="w-100" src="brands/meet1.jpeg" alt="meeting picture" />
+          </div>
+        </div>
+      </section>
+      <section class="container-fluid logo-section overflow-hidden">
+        <div class="reverse-logos d-flex overflow-hidden">
+          <div
+            class="brand-logo-container-reverse d-flex justify-content-between align-items"
+          >
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/addidas.jpg"
+                alt="addidas logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/chanel.png"
+                alt="chanel logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/newbalance.png"
+                alt="newbalance logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/nike.png"
+                alt="nike logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/polo.png"
+                alt="polo logo"
+              />
+            </div>
+            <div>
+              <img
+                class="object-fit-cover brand-logo"
+                src="logos/microsoft.png"
+                alt="microsoft logo"
+              />
+            </div>
+          </div>
+          <div class="brand-logo-container-reverse d-flex
+          justify-content-between align-items"">
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/addidas.jpg"
+              alt="addidas logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/chanel.png"
+              alt="chanel logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/newbalance.png"
+              alt="newbalance logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/nike.png"
+              alt="nike logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/polo.png"
+              alt="polo logo"
+            />
+          </div>
+          <div>
+            <img
+              class="object-fit-cover brand-logo"
+              src="logos/microsoft.png"
+              alt="microsoft logo"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="d-flex align-items-center w-100" style="height: 200px">
+        <hr class="w-100 text-secondary" />
+      </section>
+      <section class="container-md d-flex justify-content-center mb-5">
+        <div class="text-secondary" style="max-width: 900px">
+          <article>
+            <header
+              class="fw-bolder gothic-font text-center text-white"
+              style="font-size: min(16.5vw, 110px)"
+            >
+              CLIENTS SAY
+            </header>
+            <p class="font-12 roboto-font text-center">
+              (SELECTED TESTIMONIALS FROM CLUTCH ↗ AND OUR WORK)
+            </p>
+            <blockquote class="lh-lg h5 mx-auto">
+              <span style="font-size: 0.7em">"SEPT. 1, 2016 - </span
+              ><q class="fst-italic ms-5"
+                >We needed more capacity, but we didn’t just need capacity. We
+                needed real developers, real engineers who could work closely
+                with our engineers to actually be a team. So we were really
+                happy when we saw that process working and we saw STRV really
+                become part of our team.</q
+              >
+            </blockquote>
+          </article>
+          <div class="my-3 d-flex flex-column gap-3">
+            <div class="d-flex">
+              <img
+                class="pfp me-3"
+                src="assets/profilepic.jpg"
+                alt="profile picture"
+              />
+              <div>
+                <p class="fw-bolder text-white mb-0">Liam Don</p>
+                <p class="gothic-font mb-0">Co-Founder & CTO, ClassDojo</p>
+              </div>
+            </div>
+            <div class="red-line bg-red"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- IMAGE CAROUSELS -->
       <section class="my-5 container-md">
         <div id="carouselExampleIndicators" class="carousel slide">
           <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="brands/meet1.jpeg" class="d-block w-100" alt="...">
-
+              <img
+                src="brands/meet3.jpeg"
+                class="d-block w-100"
+                alt="meetings"
+              />
             </div>
             <div class="carousel-item">
-              <img src="brands/meet2.jpeg" class="d-block w-100" alt="...">
+              <img
+                src="brands/meet2.jpeg"
+                class="d-block w-100"
+                alt="meetings"
+              />
             </div>
             <div class="carousel-item">
-              <img src="brands/meet3.jpeg" class="d-block w-100" alt="...">
+              <img
+                src="brands/meet1.jpeg"
+                class="d-block w-100"
+                alt="meetings"
+              />
             </div>
           </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
         </div>
       </section>
-      <!-- SECTION 10 -->
-      <section class="my-5 p-5">
-        <h1 class="text-center mb-0" style="font-size: min(11.5vw, 100px)">GOT A PROJECT?</h1>
-        <h1 class="text-center fw-bolder mx-auto" style="font-size: min(10vw, 90px)"><a href="" class=" text-danger" >LET'S TALK</a></h1>
+      <!-- LAST PAGE -->
+      <section
+        class="got-container my-5 text-white fw-bold d-flex flex-column justify-content-between"
+        style="height: 50vh"
+      >
+        <h1
+          class="container got-a-project gothic-font d-flex flex-column text-center lh-1"
+          style="font-size: 2.5em"
+        >
+          <span>GOT A PROJECT?</span>
+          <a class="red-text">LET'S TALK</a>
+        </h1>
+        <div class="d-flex h-25 text-center" style="font-size: 30px">
+          <h3
+            class="container gothic-font d-none border-secondary border-end d-lg-flex align-items-center justify-content-center"
+          >
+            <span>FOLLOW</span>
+            <span class="red-text"> @STRV.COM</span>
+          </h3>
+          <h3
+            class="container gothic-font d-flex align-items-center justify-content-center"
+            style="font-size: 30px"
+          >
+            <span>GO NEXT: </span>
+            <span class="red-text ms-1"> OUR WORK</span>
+          </h3>
+        </div>
       </section>
     </main>
-
-    <footer class="mt-5 mb-1">
-      <div class="text-center">
-        <div class="d-flex align-items-center justify-content-center mb-3">
-          <a class="navbar-brand white-link" href="#header">
-            <svg class="me-3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
-            </svg>
-            BACK TO TOP
-          </a>
+    <footer class="container-md my-5">
+      <div
+        class="d-flex flex-column flex-xxl-row justify-content-center justify-content-xxl-between"
+      >
+        <div class="order-2 d-flex justify-content-center gap-3">
+          <a class="text-secondary text-decoration-none footer-link" href=""
+            >@2023 STRV</a
+          >
+          <a class="text-secondary text-decoration-none footer-link" href=""
+            >ALL RIGHTS RESERVED</a
+          >
         </div>
-        <div class="text-secondary">
-          <div class="d-flex align-items-center justify-content-center mb-3">
-            <p class="mb-0 me-2">© 2023 STRV</p>
-            <p class="mb-0">ALL RIGHTS RESERVED</p>
-          </div>
-          <div class="d-flex align-items-center justify-content-center mb-3">
-            <p class="mb-0 me-2"><a class="text-secondary opacity-100">SECURITY</a></p>
-            <p class="mb-0 me-2"><a class="text-secondary opacity-100">PRIVACY POLICY</a></p>
-          </div>
-        </div>   
+        <div
+          class="text-white gothic-font order-1 order-xxl-2 d-flex justify-content-center align-items-center gap-3"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-arrow-up"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5"
+            />
+          </svg>
+          <a
+            class="text-white text-decoration-none"
+            style="font-size: 25px"
+            href="#header"
+            >BACK TO TOP</a
+          >
+        </div>
+        <div class="order-3 d-flex justify-content-center gap-3">
+          <a class="text-secondary footer-link" href="">SECURITY</a>
+          <a class="text-secondary footer-link" href="">PRIVACY POLICY</a>
+        </div>
+      </div>
     </footer>
-
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
